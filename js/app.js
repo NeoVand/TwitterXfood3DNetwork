@@ -445,7 +445,9 @@ function animate() {
                 body: match.twitterHandle,
             });
             console.log(match);
-            openInNewTab("https://twitter.com/"+match.twitterHandle);
+            //openInNewTab("https://twitter.com/"+match.twitterHandle);
+            openInNewTab("http://18.85.27.65:5002/profile/"+match.twitterUserId);
+
             tooltipVisible = false;
             closeTooltip();
         }
